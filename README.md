@@ -31,9 +31,7 @@ Folder Structure
 ├── testing_with_noise
 ├── testing_without_noise
 ├── main.py
-├── plots
 ├── README.md
 ├── requirements.txt
-├── saves
 └── utils.py
 ```
