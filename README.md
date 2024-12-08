@@ -1,4 +1,4 @@
-# Pruning using Neural Collapse under Imbalanced Dataset
+# Dense Network Pruning using Neural Collapse under Imbalanced Dataset
 
 To run code:
 ```
