@@ -5,6 +5,7 @@
 python3 main.py
 ```
 
+```
 Folder Structure
 ├── logs
 │   ├── testing_with_noise
@@ -17,3 +18,4 @@ Folder Structure
 ├── requirements.txt
 ├── saves
 └── utils.py
+```
