@@ -1,7 +1,7 @@
 # Pruning using Neural Collapse under Imbalanced Dataset
 
 
-```python
+```
 python3 main.py
 ```
 
