@@ -28,8 +28,9 @@ Folder Structure
 ├── logs
 │   ├── testing_with_noise
 │   ├── testing_without_noise
-├── testing_with_noise
-├── testing_without_noise
+├── results
+│   ├── testing_with_noise
+│   ├── testing_without_noise
 ├── main.py
 ├── README.md
 ├── requirements.txt
