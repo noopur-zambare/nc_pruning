@@ -7,7 +7,8 @@ python3 main.py
 
 
 ## Results
-![Testing Pruned Model](https://github.com/noopur-zambare/nc_pruning/blob/main/testing_without_noise/10%25.png "Testing Pruned Model")
+<img src="https://github.com/noopur-zambare/nc_pruning/blob/main/testing_without_noise/10%25.png" alt="Testing Pruned Model" title="Testing Pruned Model" width="500">
+
 
 ```
 Folder Structure
