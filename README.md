@@ -1,6 +1,6 @@
 # Pruning using Neural Collapse under Imbalanced Dataset
 
-
+To run code:
 ```
 python3 main.py
 ```
