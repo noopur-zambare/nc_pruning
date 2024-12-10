@@ -324,26 +324,21 @@ def plots(standard_w, standard__neuron, nc, imbalance):
 def noise(dataset, noise_factor=0.2):
     ((X_train, Y_train), (X_test, Y_test)) = dataset.load_data()
     
-    # Reshape the data
     X_train_reshaped = X_train.reshape(len(X_train), -1)   
     X_test_reshaped = X_test.reshape(len(X_test), -1)
 
-    # Normalize the images by dividing by 255
     X_train_norm = X_train_reshaped / 255            
     X_test_norm = X_test_reshaped / 255
 
-    # Add Gaussian noise to the data
     noise_train = np.random.normal(0, noise_factor, X_train_norm.shape)
     noise_test = np.random.normal(0, noise_factor, X_test_norm.shape)
     
     X_train_noisy = X_train_norm + noise_train
     X_test_noisy = X_test_norm + noise_test
 
-    # Ensure pixel values remain between 0 and 1
     X_train_noisy = np.clip(X_train_noisy, 0, 1)
     X_test_noisy = np.clip(X_test_noisy, 0, 1)
 
-    # Get the number of features and classes
     n_features = X_train_noisy.shape[1]
     n_classes = 10
     Y_train_onehot = to_categorical(Y_train, num_classes=n_classes)
