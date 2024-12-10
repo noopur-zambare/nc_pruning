@@ -5,6 +5,8 @@ To run code:
 python3 main.py
 ```
 
+We have also provided a ipynb file for easy execution.
+
 
 ## Results
 <table align="center">
