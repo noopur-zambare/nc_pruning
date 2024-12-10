@@ -34,7 +34,9 @@ Folder Structure
 │   ├── testing_with_noise
 │   ├── testing_without_noise
 ├── main.py
+├── pruning.py
+├── sensitivity.py
 ├── README.md
 ├── requirements.txt
-└── utils.py
+└── main.ipynb
 ```
