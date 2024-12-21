@@ -1,6 +1,11 @@
 ## Dense Network Pruning using Neural Collapse under Imbalanced Dataset
 
-To run code:
+#### Install the required packages
+```
+pip install -r requirementsCC.txt
+```
+
+####  To run the code
 ```
 python3 main.py
 ```
